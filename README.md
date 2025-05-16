@@ -1,39 +1,44 @@
-# ckd-simple-payroll-system
 # CKD Simple Payroll System
 
-This project is a practical, Excel-based payroll system designed for fortnightly employee payment cycles. It automates payslip generation, tracks year-to-date earnings and deductions, and simplifies payroll reporting.
-
-## 🔧 Key Features
-- Dynamic payslip generator with structured lookup
-- Year-to-date tracking using Excel table logic
-- Supports manual overrides for accuracy and flexibility
-- Ready-to-print, professional payslip layouts
-
-## 📂 Components
-- Excel workbook with three linked tables: current pay, prior YTD, and updated YTD
-- Structured sheets for easy editing and minimal risk of user error
-- Planned expansions: user manual, input validation, dropdown selectors
-
-## 📘 Getting Started
-1. Open the Excel file.
-2. Paste current fortnight data into the `PaySlip Data` sheet.
-3. The `Payslip Generator` sheet updates automatically using formulas.
-4. Print payslips or generate summaries from the lookup section.
-
-## 📌 Future Additions
-- User manual (PDF)
-- VBA automation for sheet resets and YTD updates
-- Employee data protection enhancements
-
-## 🛠 Built With
-- Microsoft Excel
-- VBA (planned)
-- Structured references (Excel Tables)
-
-## 🧾 License
-MIT License 
+An evolving Excel-based payroll management tool being developed to support fortnightly payroll processing for CKD Contractors Ltd. The current version lays the foundation for employee data management and statutory deduction calculations.
 
 ---
 
-> Created and maintained by [KJaxnDev](https://github.com/KJaxnDev)
+## 📥 Downloads
 
+- 👉 [New CKD Payroll System.xlsx](./New%20CKD%20Payroll%20System.xlsx)  
+  Contains the Employee Master Table, NIS contribution structure, and invoice reference data.
+
+---
+
+## 📌 Current Contents
+
+This early version includes the following core datasets:
+
+- **Employee Master**: Centralized table with employee details and payroll status flags.
+- **Invoice Table**: Tracking structure to support invoice generation based on paid amounts and statutory deductions.
+- **NIS Data**: Lookup table for computing National Insurance contributions.
+
+> ⚠️ Week 1, Week 2, and Merged Payroll tracking sheets are **not yet built** — they will be developed using Power Query in upcoming versions.
+
+---
+
+## 🛠 Upcoming Features
+
+Planned enhancements to support full payroll processing:
+
+- Power Query-based **Week 1 and Week 2 payroll tables**
+- **Merged payroll sheet** to consolidate fortnightly data
+- Payslip generator linked to current pay and year-to-date summaries
+- Auto-updating statutory deduction reports
+- Printable employee payslips
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for terms.
+
+---
+
+> Maintained by [KJaxnDev](https://github.com/KJaxnDev)
